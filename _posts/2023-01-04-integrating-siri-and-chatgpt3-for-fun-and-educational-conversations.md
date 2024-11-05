@@ -22,7 +22,7 @@ tags:
 
 Once you have your API key, launch the Shortcuts App on your phone.
 
-![Index](../assets/images/2023-01-index.jpg)
+![Index](/assets/images/2023-01-index.jpg)
 
 2. 
 Click the + to create a new shortcut
