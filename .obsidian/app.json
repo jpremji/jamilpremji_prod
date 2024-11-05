@@ -3,7 +3,7 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "/assets/images/",
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "userIgnoreFilters": [
     "_site/"
   ]

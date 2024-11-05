@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-11-01-third-post.md",
-                "mode": "source",
+                "file": "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 200
   },
   "right": {
     "id": "6d027f7fe6fd89e6",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-11-01-third-post.md",
+                "file": "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-11-01-third-post.md",
+                "file": "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-11-01-third-post.md"
+                "file": "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md"
               }
             }
           }
@@ -148,32 +148,51 @@
   },
   "active": "3dcf607e2f8380fe",
   "lastOpenFiles": [
-    "_site/2024-11-05-welcome-to-jekyll/index.html",
-    "_site/2024-11-05-welcome-to-jekyll",
-    "_site/2024-11-04-zeroth-post/index.html",
-    "_site/2024-11-04-zeroth-post",
-    "_posts/2024-11-05-first-post.md",
-    "_posts/2024-11-01-third-post.md",
-    "_site/2024-11-01-third-post.html",
-    "_site/2024/11/01/third-post.html",
-    "_site/2024/11/01",
-    "_posts/2024-11-03-second-post.md",
-    "_site/2024-11-03-second-post.html",
-    "_site/ /posts/second-post.html",
-    "_site/ /posts",
-    "_site/ /2024/11-03-second-post.html",
-    "_posts/{{.md",
-    "_site/assets/images/pexels-goumbik-669612.jpg",
-    "assets/images/pexels-goumbik-669612.jpg",
-    "_posts/2024-11-04-zeroth-post.md",
-    "_site/assets/images/pexels-nietjuh-776656.jpg",
-    "_site/assets/images/pexels-karolina-grabowska-6640487.jpg",
-    "_site/assets/minima-social-icons.svg",
-    "assets/images/pexels-nietjuh-776656.jpg",
-    "assets/images/pexels-karolina-grabowska-6640487.jpg",
-    "assets/images/DALL·E 2024-10-06 00.45.37 - A network of interconnected neurons with branching dendrites and axons. The neurons are in a deep burgundy color, creating a rich contrast. The backgr copy.jpg",
-    "edit.png",
-    "Screenshot 2024-11-05 at 6.26.26 PM.png",
-    "Welcome.md"
+    "_posts/2023-10-26-log-out-certain-users-from-servers-with-powershell.md",
+    "_posts/2023-10-17-what-this-blog-will-help-you-with.md",
+    "_posts/2023-10-08-executing-powershell-commands.md",
+    "_posts/2023-09-27-what-is-powershell.md",
+    "_posts/2023-09-19-fundamentals-of-powershell.md",
+    "_posts/2023-09-07-registry-keys-and-powershell.md",
+    "_posts/2023-06-09-az-305-designing-microsoft-azure-infrastructure-solutions.md",
+    "_posts/2023-02-01-az-104.md",
+    "_posts/2023-01-26-az-900.md",
+    "_posts/2023-01-21-chatgpt3-acting-as-as-powershell-shell.md",
+    "_posts/2023-01-05-integrating-chatgpt3-with-powershell.md",
+    "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
+    "_site/assets/images/2023-09-image-1.png",
+    "assets/images/2023-09-image-1.png",
+    "_site/assets/images/2022-12-EnforceDataType.png",
+    "assets/images/2022-12-EnforceDataType.png",
+    "_site/assets/images/2022-12-ScheduledTask.png",
+    "assets/images/2022-12-ScheduledTask.png",
+    "_site/assets/images/2023-01-firefox_3777eNrLyK-1.png",
+    "assets/images/2023-01-firefox_3777eNrLyK-1.png",
+    "_site/assets/images/2023-01-firefox_CMcCnvjOem-1.png",
+    "assets/images/2023-01-firefox_CMcCnvjOem-1.png",
+    "_site/assets/images",
+    "_site/script.py",
+    "script.py",
+    "_site/index.php/2024/03/08/convertfrom-json/index.html",
+    "_site/index.php/2024/03/08/convertfrom-json",
+    "_site/index.php/2024/03/08",
+    "_site/index.php/2023/01/04/integrating-siri-and-chatgpt3-for-fun-and-educational-conversations/index.html",
+    "_site/index.php/2023/01/04/integrating-siri-and-chatgpt3-for-fun-and-educational-conversations",
+    "_site/index.php/2023/01/04",
+    "_site/index.php/2024/08/10/az-400/index.html",
+    "_posts/2025-12-06-what-are-loops.md",
+    "_posts/2025-04-05-restart-a-stopped-process.md",
+    "_posts/2025-03-25-sorting-a-csv-file-using-powershell.md",
+    "_posts/2025-03-15-how-to-automate-deleting-older-files-from-a-directory.md",
+    "_posts/2025-03-06-how-to-search-a-file-on-your-computer.md",
+    "_posts/2025-02-25-easily-check-how-long-a-process-has-been-running.md",
+    "_posts/2025-02-16-create-a-scheduled-task-automatically.md",
+    "_posts/2025-02-07-piping-in-powershell.md",
+    "_posts/2025-02-01-query-users-who-have-not-reset-their-password.md",
+    "_posts/2025-01-29-navigating-the-windows-certificate-store-with-powershell.md",
+    "_posts/2025-01-27-powershell-data-structures.md",
+    "_posts/2025-01-18-whats-the-value-of-using-filter.md",
+    "_posts/2025-01-09-query-active-directory-users.md",
+    "_posts/2024-12-14-resources-for-further-learning.md"
   ]
 }
