@@ -5,7 +5,7 @@ date: '2023-07-07T09:21:13-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=645'
-permalink: /index.php/2023/07/07/efficient-file-searching-with-powershell/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '50'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

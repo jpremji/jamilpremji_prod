@@ -5,7 +5,7 @@ date: '2024-12-14T09:58:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=154'
-permalink: '/?p=154'
+permalink: /:year-:month-:day-:title
 image: /wp-content/uploads/2023/01/pngwing.com_.png
 categories:
     - PowerShell

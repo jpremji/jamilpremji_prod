@@ -5,7 +5,7 @@ date: '2024-07-30T21:29:20-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=846'
-permalink: /index.php/2024/07/30/the-trust-relationship-between-this-workstation-and-the-primary-domain-failed-azure-restore/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '4'
 categories:

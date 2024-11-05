@@ -5,7 +5,7 @@ date: '2024-04-01T01:37:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=49'
-permalink: /index.php/2024/04/01/how-do-i-use-variables-in-powershell/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '8'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

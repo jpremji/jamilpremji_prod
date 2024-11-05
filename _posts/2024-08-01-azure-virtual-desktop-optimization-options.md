@@ -5,7 +5,7 @@ date: '2024-08-01T21:52:47-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=853'
-permalink: /index.php/2024/08/01/azure-virtual-desktop-optimization-options/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '34'
 categories:

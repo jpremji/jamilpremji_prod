@@ -5,7 +5,7 @@ date: '2024-03-25T22:00:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=185'
-permalink: /index.php/2024/03/25/query-active-directory-computers/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '4'
 categories:

@@ -5,7 +5,7 @@ date: '2023-09-07T16:53:41-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=138'
-permalink: /index.php/2023/09/07/registry-keys-and-powershell/
+permalink: /:year-:month-:day-:title
 footnotes:
     - ''
 burst_total_pageviews_count:

@@ -5,7 +5,7 @@ date: '2024-05-20T09:26:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=650'
-permalink: /index.php/2024/05/20/create-an-event-log-entry-and-source/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '11'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

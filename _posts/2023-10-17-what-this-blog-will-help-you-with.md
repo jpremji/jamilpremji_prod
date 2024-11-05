@@ -5,7 +5,7 @@ date: '2023-10-17T21:36:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=25'
-permalink: /index.php/2023/10/17/what-this-blog-will-help-you-with/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '18'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

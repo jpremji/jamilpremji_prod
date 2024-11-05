@@ -5,7 +5,7 @@ date: '2023-09-27T09:36:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=38'
-permalink: /index.php/2023/09/27/what-is-powershell/
+permalink: /:year-:month-:day-:title
 footnotes:
     - ''
 burst_total_pageviews_count:

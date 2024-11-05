@@ -5,7 +5,7 @@ date: '2024-02-05T18:03:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=197'
-permalink: /index.php/2024/02/05/send-e-mail/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '1'
 categories:

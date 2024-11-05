@@ -5,7 +5,7 @@ date: '2024-04-15T09:36:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=658'
-permalink: /index.php/2024/04/15/using-robocopy-with-powershell-parameterized/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '13'
 categories:

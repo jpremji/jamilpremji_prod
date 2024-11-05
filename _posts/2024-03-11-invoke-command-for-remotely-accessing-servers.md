@@ -5,7 +5,7 @@ date: '2024-03-11T21:39:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=157'
-permalink: /index.php/2024/03/11/invoke-command-for-remotely-accessing-servers/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '17'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

@@ -5,7 +5,7 @@ date: '2023-12-24T06:03:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=54'
-permalink: /index.php/2023/12/24/if-then-else-statements/
+permalink: /:year-:month-:day-:title
 image: /wp-content/uploads/2023/01/pngwing.com_.png
 categories:
     - PowerShell

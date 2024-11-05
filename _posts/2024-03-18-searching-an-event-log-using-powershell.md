@@ -5,7 +5,7 @@ date: '2024-03-18T01:33:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=133'
-permalink: /index.php/2024/03/18/searching-an-event-log-using-powershell/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '6'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

@@ -5,7 +5,7 @@ date: '2023-12-15T18:03:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=641'
-permalink: /index.php/2023/12/15/securing-on-premise-resources-using-azure-app-registrations-and-an-application-proxy/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '2'
 image: /wp-content/uploads/2023/01/pngwing.com1_.png

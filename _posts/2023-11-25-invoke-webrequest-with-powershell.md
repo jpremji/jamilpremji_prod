@@ -5,7 +5,7 @@ date: '2023-11-25T21:36:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=205'
-permalink: /index.php/2023/11/25/invoke-webrequest-with-powershell/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '154'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

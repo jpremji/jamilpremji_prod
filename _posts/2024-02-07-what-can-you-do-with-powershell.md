@@ -5,7 +5,7 @@ date: '2024-02-07T06:03:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=94'
-permalink: /index.php/2024/02/07/what-can-you-do-with-powershell/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '1'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

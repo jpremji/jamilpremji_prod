@@ -5,7 +5,7 @@ date: '2023-11-07T09:36:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=790'
-permalink: /index.php/2023/11/07/using-azure-front-door-as-a-reverse-proxy-for-third-party-applications/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '206'
 categories:

@@ -5,7 +5,7 @@ date: '2023-09-19T07:54:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=34'
-permalink: /index.php/2023/09/19/fundamentals-of-powershell/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '59'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

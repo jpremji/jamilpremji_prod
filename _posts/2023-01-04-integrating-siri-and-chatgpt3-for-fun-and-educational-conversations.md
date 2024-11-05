@@ -5,7 +5,7 @@ date: '2023-01-04T22:13:29-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=227'
-permalink: /index.php/2023/01/04/integrating-siri-and-chatgpt3-for-fun-and-educational-conversations/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '64'
 image: /wp-content/uploads/2023/01/getcontent-1.png
@@ -22,12 +22,12 @@ tags:
 
 Once you have your API key, launch the Shortcuts App on your phone.
 
-![](assets/images/2023-01-index.jpg)
+![Index](../assets/images/2023-01-index.jpg)
 
 2. 
 Click the + to create a new shortcut
 
-![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-4.41.01-PM1.jpeg)3. 
+![New](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-4.41.01-PM1.jpeg)3. 
 
 For your first action, choose **Ask for Input**.
 

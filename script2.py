@@ -1,34 +1,35 @@
 import os
 import re
 
-# Define the directory containing the markdown files
-input_directory = '_posts'
+# Define the path to the _posts directory
+posts_directory = '_posts'
 
 
-def count_iframes_in_markdown_files(directory):
-    total_iframe_count = 0  # Initialize total count of iframes
-
-    # Process each markdown file in the directory
+def process_markdown_files(directory):
+    # Iterate through all files in the specified directory
     for filename in os.listdir(directory):
-        if filename.endswith('.md'):  # Check for markdown files
+        if filename.endswith('.md'):
             file_path = os.path.join(directory, filename)
-
-            # Read the content of the markdown file
+            print(f'Processing file: {file_path}')
             with open(file_path, 'r', encoding='utf-8') as file:
-                content = file.read()
+                content = file.readlines()
 
-            # Use regex to find all <iframe> tags
-            iframe_matches = re.findall(
-                r'<iframe.*?>.*?</iframe>', content, re.DOTALL)
-            # Count the number of iframes in the current file
-            iframe_count = len(iframe_matches)
-            total_iframe_count += iframe_count  # Add to total count
+            # Prepare to update the permalink
+            updated_content = []
+            for line in content:
+                # Check if the line contains the permalink
+                if line.startswith('permalink:'):
+                    # Update the permalink line
+                    updated_line = 'permalink: /:year-:month-:day-:title\n'
+                    updated_content.append(updated_line)
+                    print(f'Updated permalink in {filename}')
+                else:
+                    updated_content.append(line)
 
-            print(f"Found {iframe_count} <iframe> tags in {filename}")
+            # Write the updated content back to the file
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.writelines(updated_content)
 
-    print(f"\nTotal number of <iframe> tags across all files: {
-          total_iframe_count}")
 
-
-# Run the function
-count_iframes_in_markdown_files(input_directory)
+if __name__ == '__main__':
+    process_markdown_files(posts_directory)

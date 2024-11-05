@@ -5,7 +5,7 @@ date: '2024-03-06T18:03:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=673'
-permalink: /index.php/2024/03/06/configure-an-app-service-plan-for-a-custom-domain/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '2'
 categories:

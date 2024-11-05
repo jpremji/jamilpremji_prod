@@ -5,7 +5,7 @@ date: '2023-06-09T17:27:10-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=636'
-permalink: /index.php/2023/06/09/az-305-designing-microsoft-azure-infrastructure-solutions/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '150'
 image: /wp-content/uploads/2023/01/pngwing.com1_.png

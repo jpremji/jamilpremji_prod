@@ -5,7 +5,7 @@ date: '2024-01-19T06:03:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=682'
-permalink: /index.php/2024/01/19/utilizing-an-azure-app-gateway-for-ssl-offloading/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '2'
 categories:

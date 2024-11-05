@@ -5,7 +5,7 @@ date: '2024-05-06T14:14:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=668'
-permalink: /index.php/2024/05/06/sending-an-e-mail-using-python-and-office365-smtp/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '16'
 image: /wp-content/uploads/2023/01/pngwing.com_.png

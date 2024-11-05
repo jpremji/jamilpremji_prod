@@ -5,7 +5,7 @@ date: '2024-01-01T06:03:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=806'
-permalink: /index.php/2024/01/01/replacing-citrix-with-azure-avd/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '14'
 categories:

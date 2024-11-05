@@ -5,7 +5,7 @@ date: '2023-12-06T21:36:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=677'
-permalink: /index.php/2023/12/06/using-snowflake-with-the-python-data-connector/
+permalink: /:year-:month-:day-:title
 footnotes:
     - ''
 burst_total_pageviews_count:

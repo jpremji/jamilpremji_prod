@@ -5,7 +5,7 @@ date: '2023-01-21T15:17:43-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=337'
-permalink: /index.php/2023/01/21/chatgpt3-acting-as-as-powershell-shell/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '29'
 image: /wp-content/uploads/2023/01/pngwing.com1_.png

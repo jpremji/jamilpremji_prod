@@ -5,7 +5,7 @@ date: '2025-02-07T09:36:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=84'
-permalink: '/?p=84'
+permalink: /:year-:month-:day-:title
 footnotes:
     - ''
 image: /wp-content/uploads/2023/01/pngwing.com_.png

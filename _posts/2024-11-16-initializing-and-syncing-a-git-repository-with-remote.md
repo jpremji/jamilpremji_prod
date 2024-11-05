@@ -5,7 +5,7 @@ date: '2024-11-16T21:36:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://www.jamilpremji.com:443/?p=663'
-permalink: '/?p=663'
+permalink: /:year-:month-:day-:title
 image: /wp-content/uploads/2023/01/pngwing.com1_.png
 categories:
     - git

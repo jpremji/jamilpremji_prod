@@ -5,7 +5,7 @@ date: '2024-03-08T18:03:00-04:00'
 author: jamilpremji
 layout: post
 guid: 'https://jamilpremji.com:443/?p=201'
-permalink: /index.php/2024/03/08/convertfrom-json/
+permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
     - '7'
 image: /wp-content/uploads/2023/01/pngwing.com_.png
