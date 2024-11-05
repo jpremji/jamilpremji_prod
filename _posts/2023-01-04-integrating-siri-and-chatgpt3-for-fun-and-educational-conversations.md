@@ -16,7 +16,7 @@ tags:
     - openai
 ---
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/PBCH_RxNd2A?feature=oembed" title="Bringing AI to the Table: Integrating Siri and ChatGPT/ChatGPT3" width="500">In order to get Siri to talk to ChatGP3, you need an OpenAI account. Login to OpenAI and [generate your API key](https://beta.openai.com/account/api-keys).
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/PBCH_RxNd2A?feature=oembed" title="Bringing AI to the Table: Integrating Siri and ChatGPT/ChatGPT3" width="500">In order to get Siri to talk to ChatGP3, you need an OpenAI account. Login to OpenAI and [generate your API key](https://beta.openai.com/account/api-keys).</iframe>
 
 1. 
 

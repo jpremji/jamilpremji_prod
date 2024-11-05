@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
+                "file": "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
+                "file": "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
+                "file": "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md"
+                "file": "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "3dcf607e2f8380fe",
   "lastOpenFiles": [
+    "_site/script2.py",
+    "script2.py",
+    "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
     "_posts/2023-10-26-log-out-certain-users-from-servers-with-powershell.md",
     "_posts/2023-10-17-what-this-blog-will-help-you-with.md",
     "_posts/2023-10-08-executing-powershell-commands.md",
@@ -179,7 +182,6 @@
     "_site/index.php/2023/01/04/integrating-siri-and-chatgpt3-for-fun-and-educational-conversations/index.html",
     "_site/index.php/2023/01/04/integrating-siri-and-chatgpt3-for-fun-and-educational-conversations",
     "_site/index.php/2023/01/04",
-    "_site/index.php/2024/08/10/az-400/index.html",
     "_posts/2025-12-06-what-are-loops.md",
     "_posts/2025-04-05-restart-a-stopped-process.md",
     "_posts/2025-03-25-sorting-a-csv-file-using-powershell.md",
@@ -191,8 +193,6 @@
     "_posts/2025-02-01-query-users-who-have-not-reset-their-password.md",
     "_posts/2025-01-29-navigating-the-windows-certificate-store-with-powershell.md",
     "_posts/2025-01-27-powershell-data-structures.md",
-    "_posts/2025-01-18-whats-the-value-of-using-filter.md",
-    "_posts/2025-01-09-query-active-directory-users.md",
-    "_posts/2024-12-14-resources-for-further-learning.md"
+    "_posts/2025-01-18-whats-the-value-of-using-filter.md"
   ]
 }
