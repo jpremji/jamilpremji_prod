@@ -17,14 +17,17 @@ tags:
 
 To find the Active Directory (AD) groups that a user is a member of, you can use the `Get-ADPrincipalGroupMembership` cmdlet in PowerShell.
 
-> \# Import the ActiveDirectory module  
-> Import-Module ActiveDirectory  
->    
-> \# Get the AD user object  
-> $User = Get-ADUser -Identity “John Smith”  
->    
-> \# Get the AD groups that the user is a member of  
-> Get-ADPrincipalGroupMembership -Identity $User
+```powershell
+# Import the ActiveDirectory module  
+Import-Module ActiveDirectory  
+
+# Get the AD user object  
+$User = Get-ADUser -Identity “John Smith”  
+
+# Get the AD groups that the user is a member of  
+Get-ADPrincipalGroupMembership -Identity $User
+
+```
 
 The `Get-ADPrincipalGroupMembership` cmdlet returns an array of `ADGroup` objects representing the AD groups that the user is a member of. You can use the `Name` property of each `ADGroup` object to get the name of the group.
 

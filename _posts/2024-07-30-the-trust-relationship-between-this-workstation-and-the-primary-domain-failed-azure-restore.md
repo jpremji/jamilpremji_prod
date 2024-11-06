@@ -1,16 +1,16 @@
 ---
 id: 846
-title: 'The trust relationship between this workstation and the primary domain failed &#8211; Azure Restore'
-date: '2024-07-30T21:29:20-04:00'
+title: The trust relationship between this workstation and the primary domain failed – Azure Restore
+date: 2024-07-30T21:29:20-04:00
 author: jamilpremji
 layout: post
-guid: 'https://www.jamilpremji.com:443/?p=846'
+guid: https://www.jamilpremji.com:443/?p=846
 permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
-    - '4'
+  - "4"
 categories:
-    - azure
-    - PowerShell
+  - azure
+  - PowerShell
 ---
 
 When restoring an Azure server you may run into the following issue, “The trust relationship between this workstation and the primary domain failed,” where you see an error when logging in as Local Admin.

@@ -1,22 +1,22 @@
 ---
 id: 658
-title: 'Using RoboCopy with PowerShell &#8211; Parameterized'
-date: '2024-04-15T09:36:00-04:00'
+title: Using RoboCopy with PowerShell – Parameterized
+date: 2024-04-15T09:36:00-04:00
 author: jamilpremji
 layout: post
-guid: 'https://www.jamilpremji.com:443/?p=658'
+guid: https://www.jamilpremji.com:443/?p=658
 permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
-    - '13'
+  - "13"
 categories:
-    - PowerShell
+  - PowerShell
 tags:
-    - PowerShell
+  - PowerShell
 ---
 
 The code sets the source path, destination path, and log file path using variables. It creates an array variable (`$robocopyParams`) that holds the parameters for the `robocopy` command, including the source, destination, and log file paths. Finally, it executes the `robocopy` command using the parameters from the `$robocopyParams` array.
 
-```
+```powershell
 $sourcePath = "C:\Path\to\source"
 $destinationPath = "C:\Path\to\destination"
 $logPath = "C:\Path\to\log\file.log"

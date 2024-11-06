@@ -17,74 +17,76 @@ tags:
 
 To get all network adapters and their DNS information using PowerShell, you can use the `Get-NetAdapter` cmdlet from the NetAdapter module to retrieve a list of network adapters, and the `Get-DnsClientServerAddress` cmdlet to retrieve the DNS server addresses for each adapter.
 
-```
-# Import the NetAdapter module
+```powershell
+# Import the NetAdapter module
 
-Import-Module NetAdapter
+Import-Module NetAdapter
 
-# Get a list of all network adapters
+# Get a list of all network adapters
 
-$Adapters = Get-NetAdapter
+$Adapters = Get-NetAdapter
 
-# Loop through the adapters
+# Loop through the adapters
 
-foreach ($Adapter in $Adapters) {
+foreach ($Adapter in $Adapters) {
 
-  # Get the DNS server addresses for the adapter
+  # Get the DNS server addresses for the adapter
 
-  $DnsServers = Get-DnsClientServerAddress -InterfaceAlias $Adapter.Name
+  $DnsServers = Get-DnsClientServerAddress -InterfaceAlias $Adapter.Name
 
-  # Create a new object with the adapter and DNS server information
+  # Create a new object with the adapter and DNS server information
 
-  $Object = [pscustomobject]@{
+  $Object = [pscustomobject]@{
 
-    Adapter = $Adapter.Name
+    Adapter = $Adapter.Name
 
-    DnsServers = $DnsServers.ServerAddresses -join ','
+    DnsServers = $DnsServers.ServerAddresses -join ','
 
-  }
+  }
 
-  # Write the object to the console
+  # Write the object to the console
 
-  $Object | Format-Table -AutoSize
+  $Object | Format-Table -AutoSize
 
 }
+
 ```
 
 But this doesn’t let you work with the data so we can change the $object and return it into a Variable like this
 
-```
-# Import the NetAdapter module
+```powershell
+# Import the NetAdapter module
 
-Import-Module NetAdapter
+Import-Module NetAdapter
 
-# Get a list of all network adapters
+# Get a list of all network adapters
 
-$Adapters = Get-NetAdapter
+$Adapters = Get-NetAdapter
 
-# Loop through the adapters
+# Loop through the adapters
 
-$AdapterInformation = foreach ($Adapter in $Adapters) {
+$AdapterInformation = foreach ($Adapter in $Adapters) {
 
-  # Get the DNS server addresses for the adapter
+  # Get the DNS server addresses for the adapter
 
-  $DnsServers = Get-DnsClientServerAddress -InterfaceAlias $Adapter.Name
+  $DnsServers = Get-DnsClientServerAddress -InterfaceAlias $Adapter.Name
 
-  # Create a new object with the adapter and DNS server information
+  # Create a new object with the adapter and DNS server information
 
-  $Object = [pscustomobject]@jamilpremji
+  $Object = [pscustomobject]@{
 
-    Adapter = $Adapter.Name
+    Adapter = $Adapter.Name
 
-    DnsServers = $DnsServers.ServerAddresses -join ','
+    DnsServers = $DnsServers.ServerAddresses -join ','
 
-  }
+  }
 
-  # Write the object to the console
+  # Write the object to the console
 
-  $Object 
+  $Object 
 
 }
+
 ```
 
 When returning something in PowerShell, it returns anything that is written to the pipeline.

@@ -32,4 +32,3 @@ So you want to replace your Citrix farm. You roll out Azure Virtual Desktop. Dep
 16. If sessions are getting stuck on a server, reboot it. 
     - Create a script to look for active sessions and compare against mounted profiles. If a VHD is mounted, that means the log-off failed in a timely manner.
     - If multiple drives are mounted on a server without a session in AVD, the server needs to be put on drain mode
-    -

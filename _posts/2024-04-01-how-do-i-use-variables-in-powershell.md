@@ -14,6 +14,7 @@ categories:
 tags:
     - PowerShell
 ---
+![Image](assets/images/powershell.png)
 
 In PowerShell, a variable is a container that stores a value or reference to an object. You can use variables to store and manipulate data, and to pass data between commands and scripts. To use variables in PowerShell, follow these steps:
 
@@ -21,13 +22,14 @@ In PowerShell, a variable is a container that stores a value or reference to an 
 2. Assign a value to a variable: To assign a value to a variable, you can use the `=` operator followed by the value you want to assign. For example, to assign the string “Hello, world!” to the `$message` variable, you can type `$message = "Hello, world!"` and press Enter.
 3. Use a variable: To use a variable in a command or script, you can simply refer to the variable by its name. For example, to display the value of the `$message` variable, you can use the `Write-Host` cmdlet like this: `Write-Host $message`.
 
-> ```
-> # Declare a variable and assign it a value
-> $message = "Hello, world!"
-> 
-> # Use the variable in a command
-> Write-Host $message
-> ```
+```powershell
+# Declare a variable and assign it a value
+$message = "Hello, world!"
+
+# Use the variable in a command
+Write-Host $message
+
+```
 
 ### Write-Host Versus
 
@@ -48,7 +50,7 @@ Enforcing datatypes in PowerShell is important because it helps to ensure that y
 
 For example, suppose you have a script that calculates the area of a rectangle. You might define a variable `$length` to represent the length of the rectangle, and another variable `$width` to represent the width. If you declare `$length` and `$width` as integers, you can be sure that they will always hold whole numbers. This means that you can perform mathematical operations on them without having to worry about decimal values or rounding errors.
 
-```
+```powershell
 # Declare variables as integers
 [int] $length = 5
 

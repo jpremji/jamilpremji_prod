@@ -18,17 +18,17 @@ To send an e-mail notification using PowerShell, you can use the `Send-MailMessa
 
 Here’s an example of how you could use the `Send-MailMessage` cmdlet to send an e-mail notification:
 
-```
-$smtpServer = "smtp.example.com"
-$to = "recipient@example.com"
+```powershell
+$smtpServer = "smtp.example.com"
+$to = "recipient@example.com"
 
-$from = "sender@example.com"
+$from = "sender@example.com"
 
-$subject = "Notification from PowerShell"
+$subject = "Notification from PowerShell"
 
-$body = "This is a notification message sent from PowerShell."
+$body = "This is a notification message sent from PowerShell."
 
-Send-MailMessage -SmtpServer $smtpServer -To $to -From $from -Subject $subject -Body $body
+Send-MailMessage -SmtpServer $smtpServer -To $to -From $from -Subject $subject -Body $body
 ```
 
 You can also use the `-Attachments` parameter to include attachments in the e-mail, or the `-Credential` parameter to specify a username and password to use for authenticating with the SMTP server.

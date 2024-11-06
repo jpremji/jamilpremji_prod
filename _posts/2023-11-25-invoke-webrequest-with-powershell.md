@@ -25,15 +25,15 @@ For example, you could use `Invoke-WebRequest` to retrieve a JSON response from 
 
 Here is a script that uses `Invoke-WebRequest` to get your IP information from :
 
-```
-# Get IP information from ipinfo.io
-$response = Invoke-WebRequest "https://ipinfo.io/geo"
+```powershell
+# Get IP information from ipinfo.io
+$response = Invoke-WebRequest "https://ipinfo.io/geo"
 
-# Convert the response to JSON
+# Convert the response to JSON
 
-$json = ConvertFrom-Json $response.Content
+$json = ConvertFrom-Json $response.Content
 
-# Display the IP address
+# Display the IP address
 
 $json.ip
 ```
@@ -46,17 +46,17 @@ Finally, the script accesses the “ip” property of the resulting object and d
 
 To export the JSON response from the ipinfo API to a CSV file, you can use the `Export-Csv` cmdlet. Here’s an example of how you can do this:
 
-```
-# Create an object from the JSON response
-$object = [pscustomobject]$json
+```powershell
+# Create an object from the JSON response
+$object = [pscustomobject]$json
 
-# Export the object to a CSV file
+# Export the object to a CSV file
 
-$object | Export-Csv -Path ".\export.csv" -NoTypeInformation
+$object | Export-Csv -Path ".\export.csv" -NoTypeInformation
 ```
 
 You can also customize the properties that are exported to the CSV file by using the `Select-Object` cmdlet to select only the properties that you want to include in the CSV file. For example:
 
-```
-$object | Select-Object ip, city, region, country | Export-Csv -Path ".csv" -NoTypeInformation
+```powershell
+$object | Select-Object ip, city, region, country | Export-Csv -Path ".csv" -NoTypeInformation
 ```

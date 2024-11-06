@@ -20,14 +20,14 @@ Prerequisites:
 - [ChatGPT API key](https://beta.openai.com/account/api-keys). You can obtain a free API key by signing up for an OpenAI account at .
 - PowerShell 5.0 or later. You can check the version of PowerShell you have installed by running the command `$PSVersionTable.PSVersion` in a PowerShell window.
 
-```
+```powershell
 The following line needs to be replaced with your key in the script below:
 
 $apiKey = 'REPLACE-THIS-WITH-YOUR-KEY'  #The key starts with SK-
 
 ```
 
-```
+```powershell
 param (
   [string] $Prompt
 )

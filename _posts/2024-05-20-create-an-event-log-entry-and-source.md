@@ -14,10 +14,10 @@ categories:
 tags:
     - PowerShell
 ---
-
+![](assets/images/powershell.png)
 This PowerShell script demonstrates how to write an event with a specific Event ID (3009) to the event logs. It includes a try-catch block to create the event source if it doesn’t already exist. The script utilizes the `Write-EventLog` cmdlet to write the event and provides flexibility to specify the event source, event message, event type, and event log. Running the script with administrative privileges is necessary to create event sources.
 
-```
+```powershell
 $source = "MyScript"
 $message = "An event with ID 3009 was logged."
 $eventId = 3009

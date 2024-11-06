@@ -15,7 +15,7 @@ categories:
 
 Azure Insights and Log Analytics make sifting through logs and monitoring a beautiful experience.
 
-```
+```kusto
 Event 
 | where tostring(EventID) matches regex @'4700|4701|5139'
 | project TimeGenerated, Source, EventLog, EventID, RenderedDescription, _ResourceId
@@ -26,7 +26,7 @@ The query above will find all the events you need to track. Just replace the eve
 
 Querying memory or CPU of a server is simple as well
 
-```
+```kusto
 Perf
 | where ObjectName == "Memory" and CounterName == "Total MBytes Memory"
 | project TimeGenerated, Computer, _ResourceId, CounterValue

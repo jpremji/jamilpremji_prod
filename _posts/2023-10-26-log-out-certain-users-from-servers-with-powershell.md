@@ -17,28 +17,28 @@ tags:
 
 To query a Windows computer for all logged on users and log off a specific user using PowerShell, you can use the `quser` command to retrieve a list of logged on users and the `logoff` command to log off a specific user
 
-```
-# Prompt for the user name
+```powershell
+# Prompt for the user name
 
-$UserName = Read-Host 'Enter the user name'
+$UserName = Read-Host 'Enter the user name'
 
-# Use the quser command to get a list of logged on users
+# Use the quser command to get a list of logged on users
 
-$LoggedOnUsers = quser | Select-Object -Skip 1
+$LoggedOnUsers = quser | Select-Object -Skip 1
 
-# Loop through the logged on users
+# Loop through the logged on users
 
-foreach ($LoggedOnUser in $LoggedOnUsers) {
+foreach ($LoggedOnUser in $LoggedOnUsers) {
 
-  # Check if the user name matches the user we want to log off
+  # Check if the user name matches the user we want to log off
 
-  if ($LoggedOnUser.UserName -eq $UserName) {
+  if ($LoggedOnUser.UserName -eq $UserName) {
 
-    # Use the logoff command to log off the user
+    # Use the logoff command to log off the user
 
-    logoff $LoggedOnUser.SessionName
+    logoff $LoggedOnUser.SessionName
 
-  }
+  }
 
 }
 ```
@@ -49,58 +49,58 @@ The script then loops through the logged on users and checks the user name of ea
 
 To execute the above code on a list of servers using PowerShell, you can use the `Invoke-Command` cmdlet to run the code on each server remotely.
 
-```
-# Prompt for the user name
+```powershell
+# Prompt for the user name
 
-$UserName = Read-Host 'Enter the user name'
+$UserName = Read-Host 'Enter the user name'
 
-# Specify the list of servers
+# Specify the list of servers
 
-$Servers = 'Server1', 'Server2', 'Server3'
+$Servers = 'Server1', 'Server2', 'Server3'
 
-# Loop through the servers
+# Loop through the servers
 
-foreach ($Server in $Servers) {
+foreach ($Server in $Servers) {
 
-  # Try to log off the user from the server
+  # Try to log off the user from the server
 
-  Try {
+  Try {
 
-    # Use the Invoke-Command cmdlet to run the code on the server
+    # Use the Invoke-Command cmdlet to run the code on the server
 
-    Invoke-Command -ComputerName $Server -ScriptBlock {
+    Invoke-Command -ComputerName $Server -ScriptBlock {
 
-      # Use the quser command to get a list of logged on users
+      # Use the quser command to get a list of logged on users
 
-      $LoggedOnUsers = quser | Select-Object -Skip 1
+      $LoggedOnUsers = quser | Select-Object -Skip 1
 
-      # Loop through the logged on users
+      # Loop through the logged on users
 
-      foreach ($LoggedOnUser in $LoggedOnUsers) {
+      foreach ($LoggedOnUser in $LoggedOnUsers) {
 
-        # Check if the user name matches the user we want to log off
+        # Check if the user name matches the user we want to log off
 
-        if ($LoggedOnUser.UserName -eq $args[0]) {
+        if ($LoggedOnUser.UserName -eq $args[0]) {
 
-          # Use the logoff command to log off the user
+          # Use the logoff command to log off the user
 
-          logoff ($LoggedOnUsers -split " ")[0]
+          logoff ($LoggedOnUsers -split " ")[0]
 
-        }
+        }
 
-      }
+      }
 
-    } -ArgumentList $UserName
+    } -ArgumentList $UserName
 
-  }
+  }
 
-  Catch {
+  Catch {
 
-    # If the logoff command fails, write an error message to the console
+    # If the logoff command fails, write an error message to the console
 
-    Write-Error "Failed to log off $UserName from $Server: $_"
+    Write-Error "Failed to log off $UserName from $Server: $_"
 
-  }
+  }
 
 }
 ```

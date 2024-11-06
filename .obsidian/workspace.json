@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "133917ff41424ce2",
+        "id": "e3f3c1e7b6b78023",
         "type": "tabs",
         "children": [
           {
-            "id": "3dcf607e2f8380fe",
+            "id": "f147ba0ef6db70f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 350.5,
+    "collapsed": true
   },
   "right": {
     "id": "6d027f7fe6fd89e6",
@@ -146,8 +147,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3dcf607e2f8380fe",
+  "active": "f147ba0ef6db70f6",
   "lastOpenFiles": [
+    "_posts/2023-01-05-integrating-chatgpt3-with-powershell.md",
+    "_posts/2023-01-21-chatgpt3-acting-as-as-powershell-shell.md",
+    "_posts/2023-01-26-az-900.md",
+    "_posts/2023-02-01-az-104.md",
+    "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
+    "_posts/2023-06-09-az-305-designing-microsoft-azure-infrastructure-solutions.md",
+    "_posts/2023-07-07-efficient-file-searching-with-powershell.md",
+    "_posts/2023-09-07-registry-keys-and-powershell.md",
+    "_posts/2023-09-19-fundamentals-of-powershell.md",
+    "_posts/2023-09-27-what-is-powershell.md",
+    "_posts/2023-10-08-executing-powershell-commands.md",
+    "_posts/2023-10-17-what-this-blog-will-help-you-with.md",
+    "_posts/2023-10-26-log-out-certain-users-from-servers-with-powershell.md",
+    "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
+    "_posts/2024-02-12-moving-your-script-into-a-reusable-function.md",
+    "_posts/2023-11-25-invoke-webrequest-with-powershell.md",
+    "_posts/2023-12-06-using-snowflake-with-the-python-data-connector.md",
+    "_posts/2023-12-15-securing-on-premise-resources-using-azure-app-registrations-and-an-application-proxy.md",
+    "_posts/2023-12-24-if-then-else-statements.md",
+    "_posts/2024-01-01-replacing-citrix-with-azure-avd.md",
+    "_posts/2024-01-10-querying-azure-insights.md",
+    "_posts/2024-01-19-utilizing-an-azure-app-gateway-for-ssl-offloading.md",
+    "_posts/2024-02-05-send-e-mail.md",
+    "_posts/2024-02-07-what-can-you-do-with-powershell.md",
+    "_posts/2024-02-16-powershell-and-functions.md",
+    "_posts/2024-02-19-get-user-groups-and-add-users-to-groups.md",
+    "_site/assets/images/powershell",
+    "assets/images/powershell",
+    "_site/assets/images/powershell.png",
+    "_site/assets/images/Pasted image 20241107022254.png",
+    "assets/images/powershell.png",
+    "assets/images/2024-07-trust.jpg",
+    "assets/images/2024-07-autologon-the-username-or-password-is-invalid-1024x683.jpg",
+    "assets/images/2023-01-getvalueforchoice.png",
+    "assets/images/2023-01-getdicvalue.jpeg",
+    "assets/images/2023-01-getdictionaryfromurl.png",
+    "assets/images/2023-01-firefox_CMcCnvjOem-1.png",
+    "assets/images/2023-01-firefox_3777eNrLyK-1.png",
     "_site/2024-08-10-az-400.html",
     "_site/2024-08-02-azure-virtual-desktop-optimization-options.html",
     "_site/2024-07-31-the-trust-relationship-between-this-workstation-and-the-primary-domain-failed-azure-restore.html",
@@ -155,44 +194,6 @@
     "_site/2024-05-06-sending-an-e-mail-using-python-and-office365-smtp.html",
     "_site/2024-04-15-using-robocopy-with-powershell-parameterized.html",
     "_site/2024-04-08-creating-a-scheduled-task-using-powershell-to-run-a-script-every-hour.html",
-    "_site/2024-04-01-how-do-i-use-variables-in-powershell.html",
-    "_site/2024-03-26-query-active-directory-computers.html",
-    "_site/2024-03-18-searching-an-event-log-using-powershell.html",
-    "_site/2024-03-12-invoke-command-for-remotely-accessing-servers.html",
-    "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
-    "_posts/2023-10-26-log-out-certain-users-from-servers-with-powershell.md",
-    "_posts/2023-10-17-what-this-blog-will-help-you-with.md",
-    "_posts/2023-10-08-executing-powershell-commands.md",
-    "_posts/2023-09-27-what-is-powershell.md",
-    "_posts/2023-09-19-fundamentals-of-powershell.md",
-    "_posts/2023-09-07-registry-keys-and-powershell.md",
-    "_posts/2023-06-09-az-305-designing-microsoft-azure-infrastructure-solutions.md",
-    "_posts/2023-02-01-az-104.md",
-    "_posts/2023-01-26-az-900.md",
-    "_posts/2023-01-21-chatgpt3-acting-as-as-powershell-shell.md",
-    "_posts/2023-01-05-integrating-chatgpt3-with-powershell.md",
-    "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
-    "_site/assets/images/2023-09-image-1.png",
-    "assets/images/2023-09-image-1.png",
-    "_site/assets/images/2022-12-EnforceDataType.png",
-    "assets/images/2022-12-EnforceDataType.png",
-    "_site/assets/images/2022-12-ScheduledTask.png",
-    "assets/images/2022-12-ScheduledTask.png",
-    "_site/assets/images/2023-01-firefox_3777eNrLyK-1.png",
-    "assets/images/2023-01-firefox_3777eNrLyK-1.png",
-    "_site/assets/images/2023-01-firefox_CMcCnvjOem-1.png",
-    "assets/images/2023-01-firefox_CMcCnvjOem-1.png",
-    "_posts/2025-12-06-what-are-loops.md",
-    "_posts/2025-04-05-restart-a-stopped-process.md",
-    "_posts/2025-03-25-sorting-a-csv-file-using-powershell.md",
-    "_posts/2025-03-15-how-to-automate-deleting-older-files-from-a-directory.md",
-    "_posts/2025-03-06-how-to-search-a-file-on-your-computer.md",
-    "_posts/2025-02-25-easily-check-how-long-a-process-has-been-running.md",
-    "_posts/2025-02-16-create-a-scheduled-task-automatically.md",
-    "_posts/2025-02-07-piping-in-powershell.md",
-    "_posts/2025-02-01-query-users-who-have-not-reset-their-password.md",
-    "_posts/2025-01-29-navigating-the-windows-certificate-store-with-powershell.md",
-    "_posts/2025-01-27-powershell-data-structures.md",
-    "_posts/2025-01-18-whats-the-value-of-using-filter.md"
+    "_site/2024-04-01-how-do-i-use-variables-in-powershell.html"
   ]
 }

@@ -19,7 +19,8 @@ The `ConvertFrom-Json` cmdlet in PowerShell is used to convert a string in JavaS
 
 First we need an object. Run the following code snippet to generate a file. It will create names.json in your shell directory.
 
-```
+```powershell
+
 # Create an array of first names
 $firstNames = @(
     'Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Gary', 'Hannah', 'Igor', 'Jill',
@@ -62,7 +63,8 @@ This code first creates two arrays of first and last names. Then it creates an e
 
 To import a JSON file and use the `ConvertFrom-Json` cmdlet to convert it to a PowerShell object, you can use the following code:
 
-```
+```powershell
+
 # Import the JSON file
 $json = Get-Content -Path .\names.json -Raw
 
@@ -84,7 +86,7 @@ This will import the `names.json` file, convert it to a PowerShell object, and a
 
 For example, if `names.json` contains the following JSON:
 
-```
+```json
 [
   {
     "id": 1,
@@ -102,7 +104,7 @@ For example, if `names.json` contains the following JSON:
 
 Then running the above code would allow you to access the objects in the `$names` array and their properties, like this:
 
-```
+```powershell
 PS C:\> $names[0]
 id          : 1
 firstName   : John

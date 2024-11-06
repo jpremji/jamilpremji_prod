@@ -30,19 +30,18 @@ Here’s an example of turning some code into a function:
 
 Suppose you have the following script that checks if a given file exists:
 
-```
+```powershell
 $file = "C:\temp\test.txt"
 if (Test-Path $file) {
     Write-Host "$file exists."
 } else {
     Write-Host "$file does not exist."
 }
-
 ```
 
 To turn this code into a function, you can define the function like this:
 
-```
+```powershell
 function Check-FileExistence {
     param(
         [string]$File
@@ -54,12 +53,11 @@ function Check-FileExistence {
     }
 }
 
-
 ```
 
 Then, you can call the function like this:
 
-```
+```powershell
 Check-FileExistence -File "C:\temp\test.txt"
 ```
 

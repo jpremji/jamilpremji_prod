@@ -20,4 +20,3 @@ categories:
     - Use port 80 for offloading
 - Create a health check and apply it to the listener
 - Apply the backend to the routing rule
-- 

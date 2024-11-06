@@ -27,7 +27,7 @@ pip install snowflake-connector-python
 
 This code block would run a basic select statement
 
-```
+```python
 import snowflake.connector
 ctx = snowflake.connector.connect(
     user='datadog_user',

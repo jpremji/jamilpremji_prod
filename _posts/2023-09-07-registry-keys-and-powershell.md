@@ -20,26 +20,26 @@ To search the registry for the uninstall strings of both x64 and regular applica
 
 For example, the following command searches the registry for the uninstall strings of x64 applications:
 
-```
-$UninstallStrings = Get-ChildItem 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall' |
+```powershell
+$UninstallStrings = Get-ChildItem 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall' |
 
-                    Get-ItemProperty |
+                    Get-ItemProperty |
 
-                    Where-Object { $_.DisplayName -and ($_.SystemComponent -eq $False) } |
+                    Where-Object { $_.DisplayName -and ($_.SystemComponent -eq $False) } |
 
-                    Select-Object DisplayName, UninstallString
+                    Select-Object DisplayName, UninstallString
 ```
 
 This command retrieves all keys under the `HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall` key and then uses the `Get-ItemProperty` cmdlet to retrieve the values of the keys. It filters the keys by checking for the presence of a `DisplayName` value and the absence of a `SystemComponent` value, and then selects the `DisplayName` and `UninstallString` values.
 
 To search for the uninstall strings of regular (x86) applications, you can use a similar command, but specify the `HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall` key instead:
 
-```
-$UninstallStrings = Get-ChildItem 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall' |
+```powershell
+$UninstallStrings = Get-ChildItem 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall' |
 
-                    Get-ItemProperty |
+                    Get-ItemProperty |
 
-                    Select-Object DisplayName, UninstallString
+                    Select-Object DisplayName, UninstallString
 ```
 
 This command searches the registry for the uninstall strings of regular (x86) applications by enumerating the keys under the `HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall` key and filtering the keys in the same way as the previous example.
@@ -54,26 +54,26 @@ The `cd` command in PowerShell allows you to change the current directory or loc
 
 To view the registry from PowerShell, you can use the `Get-ChildItem` cmdlet with the `hkcu:` location. For example, the following command will list the subkeys under the HKEY\_CURRENT\_USER hive:
 
-```
-cd hkcu:
+```powershell
+cd hkcu:
 
 Get-ChildItem
 ```
 
 You can also use the `Get-ItemProperty` cmdlet to view the properties of a specific registry key. For example, the following command will display the properties of the HKEY\_CURRENT\_USER\\Control Panel\\Desktop key:
 
-```
-cd ‘hkcu:\Control Panel\Desktop’
+```powershell
+cd ‘hkcu:\Control Panel\Desktop’
 
 Get-ItemProperty .
 ```
 
 You can also use the `Set-ItemProperty` cmdlet to modify the values of a specific registry key. For example, the following command will set the value of the “Wallpaper” property to “C:\\Wallpaper.jpg”:
 
-```
-cd hkcu:\Control Panel\Desktop
+```powershell
+cd hkcu:\Control Panel\Desktop
 
-Set-ItemProperty . -Name Wallpaper -Value "C:\Wallpaper.jpg"
+Set-ItemProperty . -Name Wallpaper -Value "C:\Wallpaper.jpg"
 ```
 
 It’s important to note that modifying the registry can have serious consequences if not done carefully. It is recommended to make a backup of the registry before making any changes.

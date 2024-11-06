@@ -1,25 +1,27 @@
 ---
 id: 654
-title: 'Creating a Scheduled Task Using PowerShell to Run A Script Every Hour&#8221;'
-date: '2024-04-08T09:32:00-04:00'
+title: Creating a Scheduled Task Using PowerShell to Run A Script Every Hour
+date: 2024-04-08T09:32:00-04:00
 author: jamilpremji
 layout: post
-guid: 'https://www.jamilpremji.com:443/?p=654'
+guid: https://www.jamilpremji.com:443/?p=654
 permalink: /:year-:month-:day-:title
 burst_total_pageviews_count:
-    - '80'
+  - "80"
 image: /wp-content/uploads/2023/01/pngwing.com_.png
 categories:
-    - PowerShell
+  - PowerShell
 tags:
-    - PowerShell
+  - PowerShell
 ---
 
 To create a scheduled task that runs a specific batch file every 1 hour using PowerShell, you can use the `New-ScheduledTask` cmdlet. Here’s an example command:
 
-```
+```powershell
 $action = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument '-WindowStyle Hidden -File "C:\Scripts\autorun\start.ps1'
+
 $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Hours 1) -RepetitionDuration ([System.TimeSpan]::MaxValue)
+
 $settings = New-ScheduledTaskSettingsSet
 Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "RunSrvGit" -Settings $settings
 

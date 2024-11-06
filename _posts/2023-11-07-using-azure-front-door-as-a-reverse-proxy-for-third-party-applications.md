@@ -14,7 +14,7 @@ categories:
 
 **1. Create an Origin Group:**
 
-- Log in to the Azure portal ().
+- Log in to the Azure portal ([https://portal.azure.com/](https://portal.azure.com/)).
 - In your Front Door resource, go to “Origin Groups” and create a new one.
 - Add the third-party URL as a backend host within the Origin Group.
 

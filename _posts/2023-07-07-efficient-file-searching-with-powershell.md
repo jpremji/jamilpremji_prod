@@ -15,7 +15,7 @@ categories:
 
 To search for the string in all files within the folder “C:\\inetpub\\wwwroot” using PowerShell, you can use the `Select-String` cmdlet. Here’s an example of how you can accomplish this:
 
-```
+```powershell
 Get-ChildItem -Path "C:\inetpub\wwwroot\" -Recurse | Select-String -Pattern "https://"
 ```
 

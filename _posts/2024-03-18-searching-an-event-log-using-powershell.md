@@ -21,9 +21,9 @@ To search the event log for events with a specific event ID using PowerShell, yo
 
 For example, the following command retrieves all events from the application event log and filters them by the “4624” event ID:
 
-> ```
-> $Events = Get-EventLog -LogName "Application" | Where-Object { $_.EventId -eq 4624 }
-> ```
+```
+$Events = Get-EventLog -LogName "Application" | Where-Object { $_.EventId -eq 4624 } 
+```
 
 This command retrieves all events from the application event log and then uses the `Where-Object` cmdlet to filter the events based on the value of the `InstanceId` property. The `Where-Object` cmdlet compares the value of the `InstanceId` property to the value “4624” using the `-eq` operator, which stands for “equal to.”
 
@@ -33,9 +33,10 @@ You can also use the `Get-EventLog` cmdlet to search for events in other logs, s
 
 You can then print out $Events
 
-> ```
-> $Events = Get-EventLog -LogName "Security" | Where-Object { $_.EventId -eq 4624 }
-> ```
+```powershell
+$Events = Get-EventLog -LogName "Security" | Where-Object { $_.EventId -eq 4624 }
+```
+
 
 ![](assets/images/2022-12-EventsList.png)The `Get-EventLog` cmdlet returns events as objects, with each object representing a single event. The properties of the event objects, such as `EventId`, `TimeGenerated`, and `Message`, can be accessed using dot notation, as in `$Event.EventId` or `$Event.TimeGenerated`.
 
@@ -43,17 +44,17 @@ However, when you use the `Format-Table` cmdlet to display the events, only the 
 
 To include the `EventId` property in the table view, you can use the `-Property` parameter of the `Format-Table` cmdlet to specify the properties that you want to include. For example:
 
-> ```
-> $Events | Format-Table -Property EventId, TimeGenerated, Message
-> ```
 
+```powershell
+$Events | Format-Table -Property EventId, TimeGenerated, Message
+```
 This command displays the `EventId`, `TimeGenerated`, `Message`, `Source`, and `UserName` properties of the events in a table.
 
 Keep in mind that the properties that are available on the event objects depend on the log and the type of event. Not all properties will be available for all events.
 
 If you want to look through the object in PowerShell, you can also use a for loop, to filter through the results.
 
-```
+```powershell
 $Events | ForEach-Object {
     Write-Host $_.EventId
 }

@@ -16,20 +16,20 @@ tags:
 
 To query all Active Directory (AD) computers in a specific organizational unit (OU) using PowerShell, you can use the `Get-ADComputer` cmdlet and specify the `-SearchBase` parameter to specify the OU.
 
-```
-Get-ADComputer -Filter * -SearchBase "OU=Computers,DC=contoso,DC=com"
+```powershell
+Get-ADComputer -Filter * -SearchBase "OU=Computers,DC=contoso,DC=com"
 ```
 
 This command will retrieve all AD computers in the “Computers” OU within the “contoso.com” domain.
 
 You can also use the `-Properties` parameter to specify which properties of the computer objects you want to retrieve. For example, to retrieve the name and operating system of the computers, you can use the following command:
 
-```
-Get-ADComputer -Filter * -SearchBase "OU=Computers,DC=contoso,DC=com" -Properties Name,OperatingSystem
+```powershell
+Get-ADComputer -Filter * -SearchBase "OU=Computers,DC=contoso,DC=com" -Properties Name,OperatingSystem
 ```
 
 You can also use the `-SearchScope` parameter to specify the search scope. By default, the search scope is set to “Subtree”, which means that the cmdlet will search the specified OU and all its child OUs. If you want to search only the specified OU and not its child OUs, you can set the search scope to “OneLevel”.
 
-```
-Get-ADComputer -Filter * -SearchBase "OU=Computers,DC=contoso,DC=com" -SearchScope OneLevel
+```powershell
+Get-ADComputer -Filter * -SearchBase "OU=Computers,DC=contoso,DC=com" -SearchScope OneLevel
 ```

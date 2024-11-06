@@ -70,4 +70,4 @@ Now that you are running in Azure, we need to optimize our environments.
 - Setup a scaling policy
 - Terminate user sessions and implement a reboot schedule
 
-If you want instructions with screenshots, [this article d](https://virtual-dba.com/blog/setting-up-fslogix-with-azure-virtual-desktop/)oes an impressive job.
+If you want instructions with screenshots, [this article](https://virtual-dba.com/blog/setting-up-fslogix-with-azure-virtual-desktop/) does an impressive job.

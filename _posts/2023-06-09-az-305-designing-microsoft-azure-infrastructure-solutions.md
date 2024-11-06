@@ -13,7 +13,7 @@ categories:
     - azure
 ---
 
-Azure Services:
+## Azure Services:
 
 1. Azure Data Factory (ADF): Used for creating pipelines, loading data, and controlling activities.
 2. Azure Cache for Redis: Provides a caching solution.
@@ -36,7 +36,7 @@ Azure Services:
 19. Azure Blob Storage: Offers tiering and has a capacity of up to 4.77TB.
 20. Azure Policy: Can be applied to subscriptions, resource groups, and management groups.
 
-Concepts and Features:
+## Concepts and Features:
 
 1. Self-Hosted Integration Runtime: Used in Azure Data Factory for on-premise integration.
 2. Data Path Availability: Ensures availability of data paths in a system.
@@ -65,7 +65,7 @@ Concepts and Features:
 25. Password-Based SSO: Enables single sign-on for applications that don’t support identity providers.
 26. Azure Instance Metadata Service Identity: Used for obtaining VM tokens.
 
-Other Points:
+## Other Points:
 
 - Load balancing can be achieved with Azure Load Balancer, which can be global.
 - Bounded staleness provides strong consistency for databases.

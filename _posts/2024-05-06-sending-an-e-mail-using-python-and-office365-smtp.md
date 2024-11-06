@@ -15,7 +15,7 @@ tags:
     - PowerShell
 ---
 
-```
+```python
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -82,11 +82,11 @@ To encrypt your password on Windows, you can use the [securestring library](http
 
 First create a password using PowerShell
 
-```
+```powershell
 "your password" | ConvertTo-SecureString -AsPlainText -Force | ConvertFrom-SecureString | Out-File "c:\passwordfile.txt"
 ```
 
-```
+```python
 from securestring import securestring
 original_file = open("c://passwordfile.txt", "r")
 lines = original_file.readlines()

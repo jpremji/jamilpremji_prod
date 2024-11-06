@@ -18,90 +18,89 @@ tags:
 
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/PBCH_RxNd2A?feature=oembed" title="Bringing AI to the Table: Integrating Siri and ChatGPT/ChatGPT3" width="500">In order to get Siri to talk to ChatGP3, you need an OpenAI account. Login to OpenAI and [generate your API key](https://beta.openai.com/account/api-keys).</iframe>
 
-1. 
+1. Once you have your API key, launch the Shortcuts App on your phone.
+	![Index](/assets/images/2023-01-index.jpg)
 
-Once you have your API key, launch the Shortcuts App on your phone.
+2. Click the + to create a new shortcut
+	![New](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-4.41.01-PM1.jpeg)
 
-![Index](/assets/images/2023-01-index.jpg)
 
-2. 
-Click the + to create a new shortcut
+3. For your first action, choose **Ask for Input**.
+	![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-4.45.56-PM.jpeg)4. 
 
-![New](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-4.41.01-PM1.jpeg)3. 
+4. It should say **Ask for** “***Text***” **with** “***Ask ChatGPT3?***” This is what Siri will ask you when you call this shortcut.
+	![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-4.41.01-PM3-Copy.jpeg)5. 
 
-For your first action, choose **Ask for Input**.
+5. At the bottom where it says “Search for Apps and Actions” type in **Set Variable**
+	![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-5.10.04-PM1.jpeg) 
+6. Set Variable to “Prompt” to “Provided Input”
+	![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM2-Copy.jpeg) 
 
-![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-4.45.56-PM.jpeg)4. 
+7. At the bottom, choose **Get Contents From URL**
+	![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-5.10.04-PM.jpeg)
 
-It should say **Ask for** “***Text***” **with** “***Ask ChatGPT3?***” This is what Siri will ask you when you call this shortcut.
+8. Type in the URL in the open space: **https://api.openai.com/v1/completions**
+	![](assets/images/2023-01-getcontent.png)
 
-![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-4.41.01-PM3-Copy.jpeg)5. 
+9. Click the blue arrow and make yours look similar. The only difference is after Bearer in the “Authorization” key, you need to paste the [API key you generated from OpenAI](https://beta.openai.com/account/api-keys).
 
-At the bottom where it says “Search for Apps and Actions” type in **Set Variable**
+	![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM-2.jpeg)
 
-![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-5.10.04-PM1.jpeg)6. 
+11. Type in get dictionary from “**Contents of URL**“
 
-Set Variable to “Prompt” to “Provided Input”
+	![](assets/images/2023-01-getdictionaryinput-2.jpeg)
 
-![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM2-Copy.jpeg)7. 
+12. Set it to the following
 
-At the bottom, choose **Get Contents From URL**
+	![](assets/images/2023-01-getdictionaryfromurl.png)
 
-![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-5.10.04-PM.jpeg)8. 
+13. Type in “Get Dictionary Value”
 
-Type in the URL in the open space: **https://api.openai.com/v1/completions**
+	![](assets/images/2023-01-getdicvalue.jpeg)
 
-![](assets/images/2023-01-getcontent.png)9. 
+14. Get “Value” for “Choices” in “Dictionary”
 
-Click the blue arrow and make yours look similar. The only difference is after Bearer in the “Authorization” key, you need to paste the [API key you generated from OpenAI](https://beta.openai.com/account/api-keys).
+	![](assets/images/2023-01-getvalueforchoice.png)
 
-![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM-2.jpeg)11. 
+15. Search “Get Dictionary From”
 
-Type in get dictionary from “**Contents of URL**“
+	![](assets/images/2023-01-getdictionaryinput.jpeg)
 
-![](assets/images/2023-01-getdictionaryinput-2.jpeg)12. 
+16. Set it to “Dictionary Value”
 
-Set it to the following
+	![](assets/images/2023-01-getdicvalue2.png)
 
-![](assets/images/2023-01-getdictionaryfromurl.png)13. 
+17. Search **Dictionary From Input**
 
-Type in “Get Dictionary Value”
+	![](assets/images/2023-01-getdictionaryinput.jpeg)
 
-![](assets/images/2023-01-getdicvalue.jpeg)14. 
+18. Set it to: Get “Value for “Text” in “Dictionary”
 
-Get “Value” for “Choices” in “Dictionary”
+	![](assets/images/2023-01-getvaluefortext.png)
 
-![](assets/images/2023-01-getvalueforchoice.png)15. 
+19. Search “Speak Text”
 
-Search “Get Dictionary From”
+	![](assets/images/2023-01-65116-576x1024.jpg)
 
-![](assets/images/2023-01-getdictionaryinput.jpeg)16. 
+20. Set it to Speak “Dictionary Value”
 
-Set it to “Dictionary Value”
+	![](assets/images/2023-01-speak-1.png)
 
-![](assets/images/2023-01-getdicvalue2.png)17. 
+---
 
-Search **Dictionary From Input**
+### At the top of the screen, set the name of the shortcut to OpenChat.
 
-![](assets/images/2023-01-getdictionaryinput.jpeg)18. 
-
-Set it to: Get “Value for “Text” in “Dictionary”
-
-![](assets/images/2023-01-getvaluefortext.png)19. 
-
-Search “Speak Text”
-
-![](assets/images/2023-01-65116-576x1024.jpg)20. 
-
-Set it to Speak “Dictionary Value”
-
-![](assets/images/2023-01-speak-1.png)#### At the top of the screen, set the name of the shortcut to OpenChat.
-
-#### Now ask Siri for Open Chat and you will be prompted with Ask ChatGPT3?
+### Now ask Siri for Open Chat and you will be prompted with Ask ChatGPT3?
 
 This is how it all looks.
 
-![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM2-1.jpeg)![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM1.jpeg)![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM-1.jpeg)## TL:DR
+![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM2-1.jpeg)
+
+![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM1.jpeg)
+
+![](assets/images/2023-01-WhatsApp-Image-2023-01-04-at-1.56.28-PM-1.jpeg)
+
+## TL:DR
 
 If you want to avoid doing all the work, you can [install this Shortcut.](https://www.icloud.com/shortcuts/90e2d0cbe7014d52ab1e425d5d15dbce)
 

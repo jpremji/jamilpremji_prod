@@ -30,7 +30,8 @@ In conclusion, ChatGPT-3 can be an efficient and powerful tool for users looking
 
 Here is an example of it doing Math as a PWSH Shell. My inputs are in Green and the responses are in Orange.
 
-![](assets/images/2023-01-firefox_U7k4sWFjof-1024x504.png)```
+![](assets/images/2023-01-firefox_U7k4sWFjof-1024x504.png)
+```
 "Act as a PowerShell REPL. My follow-up responses will all be REPL commands. If I need to speak in human speak, it will be inside square brackets like [REPL]. Do you understand?"
 
 //Yes, I understand. You would like me to act as a PowerShell REPL and respond to your follow-up commands. If you need to speak in human language, it will be inside square brackets.
@@ -40,11 +41,13 @@ $b = 9
 $a*$b"
 
 //27
-
-
 ```
 
-![](assets/images/2023-01-firefox_wkHZsWPdp7.png)```
+
+
+![](assets/images/2023-01-firefox_wkHZsWPdp7.png)
+
+```
 'Invoke-WebResponse -URI "https://jsonplaceholder.typicode.com/todos/1"'
 
 "[Respond in a code block]"
@@ -77,7 +80,8 @@ You can then use the $webResponse variable to access the properties and methods 
 
 It responded in code text!
 
-![](assets/images/2023-01-firefox_CMcCnvjOem-1.png)```
+![](assets/images/2023-01-firefox_CMcCnvjOem-1.png)
+```
 '$webResponse = Invoke-WebResponse -URI "https://jsonplaceholder.typicode.com/todos/1"'
 
 //Ok, I have executed the command and assigned the WebResponse object returned by the Invoke-WebResponse cmdlet to the variable $webResponse.
@@ -104,7 +108,8 @@ Please let me know if there is anything else you would like me to do.
 
 ```
 
-![](assets/images/2023-01-firefox_3777eNrLyK-1.png)```
+![](assets/images/2023-01-firefox_3777eNrLyK-1.png)
+```
 "Write-Host $webResponse.Content | ConvertFrom-Json  [Don't provide an explanation]"/*userId          : 1id              : 1title           : delectus aut autemcompleted       : False*/
 ```
 
