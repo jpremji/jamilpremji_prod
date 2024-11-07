@@ -17,24 +17,24 @@ tags:
 
 In PowerShell, a loop is a control structure that allows you to repeat a block of code for a specified number of times or until a certain condition is met. There are several types of loops available in PowerShell, including `for`, `while`, and `do-while`.
 
-### What are Loops?
+## What are Loops?
 
-#### For Loop
+### For Loop
 
 for loop: A for loop is used to execute a block of code a specific number of times. It is typically used when you know the exact number of iterations that you want to perform. Here’s an example of how to use a for loop in PowerShell:
 
-```
-# Declare a variable to store the loop counter
+```powershell
+# Declare a variable to store the loop counter
 
-$counter = 0
+$counter = 0
 
-# Execute the loop 5 times
+# Execute the loop 5 times
 
-for ($counter = 0; $counter -lt 5; $counter++) {
+for ($counter = 0; $counter -lt 5; $counter++) {
 
-# Do something
+# Do something
 
-Write-Host "Iteration $counter"
+Write-Host "Iteration $counter"
 
 }
 ```
@@ -43,24 +43,24 @@ This code will declare a variable $counter and initialize it to 0. Then, it will
 
 Inside the loop, the code will write the current value of the loop counter to the console using the Write-Host command. For example, on the first iteration of the loop, “Iteration 0” will be printed to the console. On the second iteration, “Iteration 1” will be printed, and so on. When the loop completes, the final value of $counter will be 5.
 
-#### While Loop
+### While Loop
 
 `while` loop: A `while` loop is used to execute a block of code as long as a certain condition is true. It is typically used when you want to keep executing the loop until a specific condition is met.
 
-```
-# Declare a variable to store the loop counter
+```powershell
+# Declare a variable to store the loop counter
 
-$counter = 0
+$counter = 0
 
-# Execute the loop as long as the counter is less than 5
+# Execute the loop as long as the counter is less than 5
 
-while ($counter -lt 5) {
+while ($counter -lt 5) {
 
-# Do something
+# Do something
 
-Write-Host "Iteration $counter"
+Write-Host "Iteration $counter"
 
-# Increment the counter
+# Increment the counter
 
 $counter++
 
@@ -73,28 +73,28 @@ Inside the loop, the code will write the current value of the loop counter to th
 
 For example, on the first iteration of the loop, “Iteration 0” will be printed to the console and $counter will be incremented to 1. On the second iteration, “Iteration 1” will be printed and $counter will be incremented to 2. This process will continue until the value of $counter is no longer less than 5, at which point the loop will terminate. When the loop completes, the final value of $counter will be 5.
 
-#### Do-While Loop
+### Do-While Loop
 
 do-while loop: A do-while loop is similar to a while loop, but it is used to execute a block of code at least once before checking the loop condition. This means that the code in the loop will always be executed at least once, regardless of whether the condition is true or not.
 
-```
-# Declare a variable to store the loop counter
+```powershell
+# Declare a variable to store the loop counter
 
-$counter = 0
+$counter = 0
 
-# Execute the loop at least once
+# Execute the loop at least once
 
-do {
+do {
 
-  # Do something
+  # Do something
 
-  Write-Host "Iteration $counter"
+  Write-Host "Iteration $counter"
 
-  # Increment the counter
+  # Increment the counter
 
-  $counter++
+  $counter++
 
-} while ($counter -lt 5)
+} while ($counter -lt 5)
 ```
 
 This code will declare a variable $counter and initialize it to 0. It will then enter a loop that will execute at least once, regardless of the condition specified in the loop’s header.
@@ -105,7 +105,7 @@ After the code inside the loop has been executed, the loop will check the condit
 
 For example, on the first iteration of the loop, “Iteration 0” will be printed to the console and $counter will be incremented to 1. The loop will then check the condition $counter -lt 5, which is true, so it will execute again. On the second iteration, “Iteration 1” will be printed and $counter will be incremented to 2. This process will continue until the value of $counter is no longer less than 5, at which point the loop will terminate. When the loop completes, the final value of $counter will be 5.
 
-##### Why shouldn’t we use $counter
+#### Why shouldn’t we use $counter
 
  It is generally a good practice to use descriptive and meaningful variable names when programming, rather than ambiguous or generic names like `$counter`. This can help to make your code easier to understand and maintain, and it can also help to prevent errors and confusion.
 
@@ -117,7 +117,7 @@ There are several reasons why you might want to avoid using ambiguous variable n
 
 In general, it is a good idea to spend some time thinking about the names you use for your variables and to choose names that accurately reflect the purpose and role of the variable in your code. This can help to make your code more readable, maintainable, and error-free.
 
-##### Error-Free Code
+#### Error-Free Code
 
 In PowerShell, the `try/catch` statement is a control structure that allows you to handle errors and exceptions that may occur in your code. When an error or exception occurs, the `try` block of code is executed, and if an error or exception is thrown, the `catch` block of code is executed.
 
@@ -129,30 +129,30 @@ Using the `try/catch` statement can be useful in several situations, including:
 
 In general, the `try/catch` statement is a useful tool for managing errors and exceptions in PowerShell, and it is a good idea to use it whenever you are writing scripts or applications that may encounter unexpected problems.
 
-```
-Try {
+```powershell
+Try {
 
-    # Code that may throw an exception
+    # Code that may throw an exception
 
-    $value = 1 / 0
+    $value = 1 / 0
 
-  }
+  }
 
-  Catch [System.DivideByZeroException] {
+  Catch [System.DivideByZeroException] {
 
-    # Code to handle a divide-by-zero exception
+    # Code to handle a divide-by-zero exception
 
-    Write-Host "Error: Cannot divide by zero"
+    Write-Host "Error: Cannot divide by zero"
 
-  }
+  }
 
-  Finally {
+  Finally {
 
-    # Code to execute regardless of whether an exception occurred
+    # Code to execute regardless of whether an exception occurred
 
-    Write-Host "Finally block executed"
+    Write-Host "Finally block executed"
 
-  }
+  }
 ```
 
 In this example, the `Try` block contains a statement that divides a number by zero, which will throw a `System.DivideByZeroException` exception. The `Catch` block handles this exception and writes an error message to the console. The `Finally` block contains code that is executed regardless of whether an exception occurred in the `Try` block.
@@ -167,7 +167,7 @@ The `Finally` block is useful for cleaning up resources or performing other acti
 
 The `Where-Object` cmdlet is used in PowerShell to filter a collection of objects based on a specified condition. It iterates through each object in the collection and evaluates the specified condition. If the condition is true for a given object, the object is included in the output. If the condition is false, the object is excluded. Here is an example of using the `Where-Object` cmdlet to filter a collection of event log entries:
 
-```
+```powershell
 Get-EventLog -LogName "Security" | Where-Object { $_.EventId -eq 4624 }
 ```
 
@@ -181,7 +181,7 @@ The `ForEach-Object` cmdlet is used in PowerShell to iterate through a collectio
 
  Here is an example of using the `ForEach-Object` cmdlet to iterate through a collection of event log entries:
 
-```
+```powershell
 Get-EventLog -LogName "Security" | ForEach-Object {
 
   Write-Host $_.EventId
@@ -193,7 +193,7 @@ Get-EventLog -LogName "Security" | ForEach-Object {
 
 For example, to iterate through the events in the `$Events` collection and print the Event ID of each event to the console, you could use the following code:
 
-```
+```powershell
 $Events | ForEach-Object {
 
   $event = $_

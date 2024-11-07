@@ -17,12 +17,12 @@ tags:
 
 To find a file with the “.csv” extension that was last modified a year ago on the D drive using PowerShell, you can modify the `-Filter` parameter of the `Get-ChildItem` cmdlet to search for files with the “.csv” extension.
 
-```
-$yearAgo = (Get-Date).AddYears(-1)
+```powershell
+$yearAgo = (Get-Date).AddYears(-1)
 
-Get-ChildItem -Path "D:\" -Filter "*.csv" -Recurse | Where-Object {
+Get-ChildItem -Path "D:\" -Filter "*.csv" -Recurse | Where-Object {
 
-  $_.LastWriteTime -lt $yearAgo
+  $_.LastWriteTime -lt $yearAgo
 
 }
 ```
@@ -31,11 +31,11 @@ This script uses the `-Filter` parameter to search for files with the “.csv”
 
 To save the result to a variable, you can use the `$` symbol followed by a name for the variable. For example:
 
-```
-$yearAgo = (Get-Date).AddYears(-1)
-$results = Get-ChildItem -Path "D:\" -Filter "*.csv" -Recurse | Where-Object {
+```powershell
+$yearAgo = (Get-Date).AddYears(-1)
+$results = Get-ChildItem -Path "D:\" -Filter "*.csv" -Recurse | Where-Object {
 
-  $_.LastWriteTime -lt $yearAgo
+  $_.LastWriteTime -lt $yearAgo
 
 }
 ```
@@ -44,14 +44,14 @@ This script saves the result of the `Get-ChildItem` and `Where-Object` cmdlets t
 
 To export the results to a CSV file, you can use the `Export-Csv` cmdlet. For example:
 
-```
-$yearAgo = (Get-Date).AddYears(-1)
+```powershell
+$yearAgo = (Get-Date).AddYears(-1)
 
-$results = Get-ChildItem -Path "D:\" -Filter "*.csv" -Recurse | Where-Object {
+$results = Get-ChildItem -Path "D:\" -Filter "*.csv" -Recurse | Where-Object {
 
-  $_.LastWriteTime -lt $yearAgo
+  $_.LastWriteTime -lt $yearAgo
 
 }
 
-$results | Export-Csv -Path "C:\Temp\Results.csv" -NoTypeInformation
+$results | Export-Csv -Path "C:\Temp\Results.csv" -NoTypeInformation
 ```

@@ -14,9 +14,8 @@ tags:
 ---
 
 To navigate the Windows certificate store using PowerShell, you can use the `Get-ChildItem` cmdlet to enumerate the certificates in the store and the `Get-Item` cmdlet to retrieve the properties of the certificates.
-
-```
-Get-ChildItem -Path 'cert:\CurrentUser\My'
+```powershell
+Get-ChildItem -Path 'cert:\CurrentUser\My'
 ```
 
 ![](assets/images/2022-12-Certs.png)This command enumerates the certificates in the “My” certificate store, which is located under the `cert:\CurrentUser\My` path in the certificate store.

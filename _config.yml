@@ -27,7 +27,8 @@ baseurl: "jamilpremji" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jamilpremji
 github_username: jamilpremji
-
+# use future:true to check schedules post when using jekyll serve
+future: true
 # Build settings
 theme: minima
 plugins:

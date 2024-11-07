@@ -31,42 +31,42 @@ Suppose you have a CSV file and want to sort it. PowerShell can help!
 
 ##### Let’s generate a file first.
 
-```
-# Create an empty array to store the rows of data
+```powershell
+# Create an empty array to store the rows of data
 
-$Data = @()
+$Data = @()
 
-# Generate 100 random numbers
+# Generate 100 random numbers
 
-for ($i = 1; $i -le 100; $i++) {
+for ($i = 1; $i -le 100; $i++) {
 
-  # Generate a random number between 1 and 26
+  # Generate a random number between 1 and 26
 
-  $Number = Get-Random -Minimum 1 -Maximum 26
+  $Number = Get-Random -Minimum 1 -Maximum 26
 
-  # Convert the number to its character equivalent
+  # Convert the number to its character equivalent
 
-  $Character = [char]($Number + 64)
+  $Character = [char]($Number + 64)
 
-  # Create a new object with the number and character
+  # Create a new object with the number and character
 
-  $Row = [pscustomobject]@{
+  $Row = [pscustomobject]@{
 
-    Number = $Number
+    Number = $Number
 
-    Character = $Character
+    Character = $Character
 
-  }
+  }
 
-  # Add the object to the array
+  # Add the object to the array
 
-  $Data += $Row
+  $Data += $Row
 
 }
 
-# Export the data to a CSV file
+# Export the data to a CSV file
 
-$Data | Export-Csv -Path "C:\temp\data.csv" -NoTypeInformation
+$Data | Export-Csv -Path "C:\temp\data.csv" -NoTypeInformation
 ```
 
 This script will generate 100 random numbers between 1 and 26, convert each number to its character equivalent (A-Z), and store the number and character in an object. The objects are then added to an array, which is exported to a CSV file at the specified path.
@@ -79,16 +79,16 @@ You can customize the script as needed to generate different ranges of random nu
 
 Let’s sort this CSV file to return the list of numbers from lowest to highest.
 
-```
-# Import the data from the CSV file
+```powershell
+# Import the data from the CSV file
 
-$Data = Import-Csv -Path "C:\temp\data.csv"
+$Data = Import-Csv -Path "C:\temp\data.csv"
 
-# Sort the data by the Number column in descending order
+# Sort the data by the Number column in descending order
 
-$SortedData = $Data | Sort-Object -Property Number -Descending
+$SortedData = $Data | Sort-Object -Property Number -Descending
 
-# Output the sorted data
+# Output the sorted data
 
 $SortedData
 ```
@@ -99,18 +99,18 @@ Notice the result is not sorted correctly.
 
 To fix this issue, you can cast the `Number` property to a number before sorting the data. For example:
 
-```
-# Import the data from the CSV file
+```powershell
+# Import the data from the CSV file
 
-$Data = Import-Csv -Path "C:\temp\data.csv"
+$Data = Import-Csv -Path "C:\temp\data.csv"
 
-# Sort the data by the Number column in descending order
+# Sort the data by the Number column in descending order
 
-$SortedData = $Data | Sort-Object -Property Number -Descending
+$SortedData = $Data | Sort-Object -Property Number -Descending
 
-$Data = $Data | Sort-Object -Property { [int]$_.Number }
+$Data = $Data | Sort-Object -Property { [int]$_.Number }
 
-# Output the sorted data
+# Output the sorted data
 
 $SortedData
 ```
@@ -119,8 +119,8 @@ This would sort the data by the `Number` property, but treat it as an integer ra
 
 What if you wanted to sort the characters column?
 
-```
-$Data = $Data | Sort-Object -Property Character -Descending
+```powershell
+$Data = $Data | Sort-Object -Property Character -Descending
 ```
 
 You get

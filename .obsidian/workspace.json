@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e3f3c1e7b6b78023",
+        "id": "c8c6ccc673e38830",
         "type": "tabs",
         "children": [
           {
-            "id": "f147ba0ef6db70f6",
+            "id": "6ecba6030b6f3659",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
+                "file": "_drafts/microsoft-azure-fundamentals-az-900.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "right": {
     "id": "6d027f7fe6fd89e6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
+                "file": "_drafts/microsoft-azure-fundamentals-az-900.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
+                "file": "_drafts/microsoft-azure-fundamentals-az-900.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md"
+                "file": "_drafts/microsoft-azure-fundamentals-az-900.md"
               }
             }
           }
@@ -147,36 +146,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f147ba0ef6db70f6",
+  "active": "6ecba6030b6f3659",
   "lastOpenFiles": [
+    "_site/2026-01-01-microsoft-azure-fundamentals-az-900.html",
+    "_drafts/using-microsoft-graph-for-e-mail-instead-of-send-smtp.md",
+    "_site/2026-01-01-using-microsoft-graph-for-e-mail-instead-of-send-smtp.html",
+    "_drafts/microsoft-azure-fundamentals-az-900.md",
+    "_site/2025-02-02-microsoft-azure-fundamentals-az-900.html",
+    "_site/2024-11-07-microsoft-azure-fundamentals-az-900.html",
+    "_site/2024-11-07-using-microsoft-graph-for-e-mail-instead-of-send-smtp.html",
+    "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
+    "_site/draft-azure-900.html",
+    "_site/2024-11-07-using-microsoft-graph-for-e-mail-instead-of-send-smtp/index.html",
+    "_site/2024-11-07-using-microsoft-graph-for-e-mail-instead-of-send-smtp",
+    "_site/2024-11-07-microsoft-azure-fundamentals-az-900/index.html",
+    "_site/2024-11-07-microsoft-azure-fundamentals-az-900",
+    "_posts/2024-11-16-initializing-and-syncing-a-git-repository-with-remote.md",
+    "_drafts",
+    "_posts/2024-12-14-resources-for-further-learning.md",
+    "_posts/2025-01-09-query-active-directory-users.md",
+    "_posts/2025-01-18-whats-the-value-of-using-filter.md",
+    "_posts/2025-01-27-powershell-data-structures.md",
+    "_posts/2025-01-29-navigating-the-windows-certificate-store-with-powershell.md",
+    "_posts/2025-02-01-query-users-who-have-not-reset-their-password.md",
+    "_posts/2025-02-07-piping-in-powershell.md",
+    "_posts/2025-02-16-create-a-scheduled-task-automatically.md",
+    "_posts/2025-02-25-easily-check-how-long-a-process-has-been-running.md",
+    "_posts/2025-03-06-how-to-search-a-file-on-your-computer.md",
+    "_posts/2025-03-15-how-to-automate-deleting-older-files-from-a-directory.md",
+    "_posts/2025-03-25-sorting-a-csv-file-using-powershell.md",
+    "_posts/2025-04-05-restart-a-stopped-process.md",
+    "_posts/2025-12-06-what-are-loops.md",
     "_posts/2023-01-05-integrating-chatgpt3-with-powershell.md",
     "_posts/2023-01-21-chatgpt3-acting-as-as-powershell-shell.md",
     "_posts/2023-01-26-az-900.md",
     "_posts/2023-02-01-az-104.md",
-    "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
     "_posts/2023-06-09-az-305-designing-microsoft-azure-infrastructure-solutions.md",
     "_posts/2023-07-07-efficient-file-searching-with-powershell.md",
     "_posts/2023-09-07-registry-keys-and-powershell.md",
-    "_posts/2023-09-19-fundamentals-of-powershell.md",
-    "_posts/2023-09-27-what-is-powershell.md",
-    "_posts/2023-10-08-executing-powershell-commands.md",
-    "_posts/2023-10-17-what-this-blog-will-help-you-with.md",
-    "_posts/2023-10-26-log-out-certain-users-from-servers-with-powershell.md",
-    "_posts/2023-11-07-using-azure-front-door-as-a-reverse-proxy-for-third-party-applications.md",
-    "_posts/2024-02-12-moving-your-script-into-a-reusable-function.md",
-    "_posts/2023-11-25-invoke-webrequest-with-powershell.md",
-    "_posts/2023-12-06-using-snowflake-with-the-python-data-connector.md",
-    "_posts/2023-12-15-securing-on-premise-resources-using-azure-app-registrations-and-an-application-proxy.md",
-    "_posts/2023-12-24-if-then-else-statements.md",
-    "_posts/2024-01-01-replacing-citrix-with-azure-avd.md",
-    "_posts/2024-01-10-querying-azure-insights.md",
-    "_posts/2024-01-19-utilizing-an-azure-app-gateway-for-ssl-offloading.md",
-    "_posts/2024-02-05-send-e-mail.md",
-    "_posts/2024-02-07-what-can-you-do-with-powershell.md",
-    "_posts/2024-02-16-powershell-and-functions.md",
-    "_posts/2024-02-19-get-user-groups-and-add-users-to-groups.md",
-    "_site/assets/images/powershell",
-    "assets/images/powershell",
     "_site/assets/images/powershell.png",
     "_site/assets/images/Pasted image 20241107022254.png",
     "assets/images/powershell.png",
@@ -186,14 +193,6 @@
     "assets/images/2023-01-getdicvalue.jpeg",
     "assets/images/2023-01-getdictionaryfromurl.png",
     "assets/images/2023-01-firefox_CMcCnvjOem-1.png",
-    "assets/images/2023-01-firefox_3777eNrLyK-1.png",
-    "_site/2024-08-10-az-400.html",
-    "_site/2024-08-02-azure-virtual-desktop-optimization-options.html",
-    "_site/2024-07-31-the-trust-relationship-between-this-workstation-and-the-primary-domain-failed-azure-restore.html",
-    "_site/2024-05-20-create-an-event-log-entry-and-source.html",
-    "_site/2024-05-06-sending-an-e-mail-using-python-and-office365-smtp.html",
-    "_site/2024-04-15-using-robocopy-with-powershell-parameterized.html",
-    "_site/2024-04-08-creating-a-scheduled-task-using-powershell-to-run-a-script-every-hour.html",
-    "_site/2024-04-01-how-do-i-use-variables-in-powershell.html"
+    "assets/images/2023-01-firefox_3777eNrLyK-1.png"
   ]
 }

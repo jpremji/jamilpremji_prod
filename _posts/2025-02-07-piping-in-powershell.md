@@ -25,8 +25,8 @@ command1 | command2
 
 This will execute `command1` and pass its output to `command2` as input.
 
-```
-Get-Process | Where-Object { $_.WorkingSet -gt 2000000 } | Sort-Object -Property WorkingSet | Format-Table -Property Name, WorkingSet
+```powershell
+Get-Process | Where-Object { $_.WorkingSet -gt 2000000 } | Sort-Object -Property WorkingSet | Format-Table -Property Name, WorkingSet
 ```
 
 This example retrieves a list of processes running on the computer, filters out processes with a working set less than 2 MB, sorts the remaining processes by working set size, and then formats the output as a table with the process name and working set size.
