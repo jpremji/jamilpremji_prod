@@ -1,0 +1,4 @@
+2023-09-27-what-is-powershell.md:
+  Line 20: https://www.jamilpremji.com/index.php/2023/09/27/executing-powershell-commands/):
+2023-10-17-what-this-blog-will-help-you-with.md:
+  Line 24: https://www.jamilpremji.com/index.php/2023/07/07/efficient-file-searching-with-powershell/).

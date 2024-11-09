@@ -21,6 +21,7 @@ tags:
 
 The blog begins by providing a foundational understanding of PowerShell, including its history, architecture, and basic syntax. From there, it delves into key concepts and techniques for using PowerShell in a corporate environment, such as managing users and groups, working with file and folder permissions, and automating tasks.
 
-Throughout the posts you will learn how to leverage PowerShell to interact with other vendor technologies to [streamline your workflow and increase efficiency](https://www.jamilpremji.com/index.php/2023/07/07/efficient-file-searching-with-powershell/). You will also gain practical experience through hands-on exercises and real-world scenarios, which will help you to apply your knowledge and skills in a corporate setting.
+Throughout the posts you will learn how to leverage PowerShell to interact with other vendor technologies to [streamline your workflow and increase efficiency](2023-07-07-efficient-file-searching-with-powershell). You will also gain practical experience through hands-on exercises and real-world scenarios, which will help you to apply your knowledge and skills in a corporate setting.
 
 Whether you are new to PowerShell or have some experience under your belt, this book will provide you with the tools and guidance you need to become proficient in using PowerShell in your organization. So, this blog is highly recommended for IT professionals who want to learn how to use PowerShell in a corporate environment.
+

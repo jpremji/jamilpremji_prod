@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/microsoft-azure-fundamentals-az-900.md",
+                "file": "_posts/2023-09-27-what-is-powershell.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/microsoft-azure-fundamentals-az-900.md",
+                "file": "_posts/2023-09-27-what-is-powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/microsoft-azure-fundamentals-az-900.md",
+                "file": "_posts/2023-09-27-what-is-powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/microsoft-azure-fundamentals-az-900.md"
+                "file": "_posts/2023-09-27-what-is-powershell.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "6ecba6030b6f3659",
   "lastOpenFiles": [
+    "_posts/2023-10-17-what-this-blog-will-help-you-with.md",
+    "_site/todo.txt",
+    "_site/script3.py",
+    "_drafts/microsoft-azure-fundamentals-az-900.md",
     "_layouts/base.html",
     "_layouts/home.html",
     "_layouts",
@@ -156,12 +160,8 @@
     "_site/page6",
     "_site/page5/index.html",
     "_site/page5",
-    "_site/page4/index.html",
-    "_site/page4",
-    "_site/page3/index.html",
     "_site/assets/minima-social-icons.svg",
     "_drafts/using-microsoft-graph-for-e-mail-instead-of-send-smtp.md",
-    "_drafts/microsoft-azure-fundamentals-az-900.md",
     "_posts/2023-01-04-integrating-siri-and-chatgpt3-for-fun-and-educational-conversations.md",
     "_posts/2024-11-16-initializing-and-syncing-a-git-repository-with-remote.md",
     "_posts/2024-12-14-resources-for-further-learning.md",
