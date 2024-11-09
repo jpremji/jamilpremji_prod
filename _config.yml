@@ -16,7 +16,7 @@ github_username: jamilpremji
 # use future:true to check schedules post when using jekyll serve
 # future: true
 
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.webp"
 
 # Build settings
 theme: minima

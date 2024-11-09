@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-27-what-is-powershell.md",
+                "file": "_posts/2023-10-08-executing-powershell-commands.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-27-what-is-powershell.md",
+                "file": "_posts/2023-10-08-executing-powershell-commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-27-what-is-powershell.md",
+                "file": "_posts/2023-10-08-executing-powershell-commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-27-what-is-powershell.md"
+                "file": "_posts/2023-10-08-executing-powershell-commands.md"
               }
             }
           }
@@ -148,6 +148,14 @@
   },
   "active": "6ecba6030b6f3659",
   "lastOpenFiles": [
+    "_includes/header.html",
+    "_site/assets/images/logo.webp",
+    "assets/images/logo.webp",
+    "_site/assets/logo.webp",
+    "assets/logo.webp",
+    "_site/logo.webp",
+    "logo.webp",
+    "_posts/2023-09-27-what-is-powershell.md",
     "_posts/2023-10-17-what-this-blog-will-help-you-with.md",
     "_site/todo.txt",
     "_site/script3.py",
@@ -183,16 +191,8 @@
     "_posts/2023-01-26-az-900.md",
     "_posts/2023-02-01-az-104.md",
     "_posts/2023-06-09-az-305-designing-microsoft-azure-infrastructure-solutions.md",
-    "_posts/2023-07-07-efficient-file-searching-with-powershell.md",
-    "_posts/2023-09-07-registry-keys-and-powershell.md",
     "_site/assets/images/powershell.png",
     "_site/assets/images/Pasted image 20241107022254.png",
-    "assets/images/powershell.png",
-    "assets/images/2024-07-trust.jpg",
-    "assets/images/2024-07-autologon-the-username-or-password-is-invalid-1024x683.jpg",
-    "assets/images/2023-01-getvalueforchoice.png",
-    "assets/images/2023-01-getdicvalue.jpeg",
-    "assets/images/2023-01-getdictionaryfromurl.png",
-    "assets/images/2023-01-firefox_CMcCnvjOem-1.png"
+    "assets/images/powershell.png"
   ]
 }

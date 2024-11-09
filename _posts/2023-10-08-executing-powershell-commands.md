@@ -16,10 +16,13 @@ To enter and execute commands in PowerShell, follow these steps:
 
 1. Open PowerShell: To open PowerShell, click the Start button, type “PowerShell” into the search bar, and then click on the PowerShell icon that appears. Alternatively, you can open a Command Prompt window and then type “powershell” (without the quotes) and press Enter to launch PowerShell.
 2. Type a command: Once PowerShell is open, you can type a command and press Enter to execute it. For example, you can type “Get-Process” and press Enter to see a list of all the processes running on your computer.
+	   ![](assets/images/2022-12-Get-Process.png)
 
-![](assets/images/2022-12-Get-Process.png)3. Use parameters: Many PowerShell commands accept parameters that allow you to customize their behavior. To specify a parameter, you can type the name of the parameter followed by a colon and the value you want to use. For example, you could type “Get-Process -Name ‘explorer'” to see only the processes with the name “explorer”.
 
-![](assets/images/2022-12-Get-ProcessParam.png)4. Use the up and down arrow keys: You can use the up and down arrow keys to navigate through the command history and recall previously entered commands. This can be useful if you want to execute the same command multiple times or if you want to modify a command you previously entered.
+3. Use parameters: Many PowerShell commands accept parameters that allow you to customize their behavior. To specify a parameter, you can type the name of the parameter followed by a colon and the value you want to use. For example, you could type “Get-Process -Name ‘explorer'” to see only the processes with the name “explorer”.
+
+	![](assets/images/2022-12-Get-ProcessParam.png)
+1. Use the up and down arrow keys: You can use the up and down arrow keys to navigate through the command history and recall previously entered commands. This can be useful if you want to execute the same command multiple times or if you want to modify a command you previously entered.
 
 #### Code Editor
 
