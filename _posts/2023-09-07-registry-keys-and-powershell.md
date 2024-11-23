@@ -1,6 +1,6 @@
 ---
 id: 138
-title: 'Registry Keys and PowerShell &#8211; Uninstall Strings'
+title: 'Registry Keys and PowerShell Uninstall Strings'
 date: '2023-09-07T16:53:41-04:00'
 author: jamilpremji
 layout: post
