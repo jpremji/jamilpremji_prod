@@ -8,7 +8,7 @@ title: JamilPremji's Blog
 email: jamil.premji@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   failure is the key to success
-baseurl: "jamilpremji" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 # baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: jamil-premji
